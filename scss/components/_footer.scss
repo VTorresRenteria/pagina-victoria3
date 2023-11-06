@@ -1,0 +1,49 @@
+footer {
+    background-color: black;
+}
+
+.botones__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.logo-footer img {
+    width: 50px;
+    height: auto;
+}
+
+.botones-extras {
+    text-align: center;
+}
+
+.botones-extras a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.botones-extras a:hover {
+    color: grey;
+}
+
+.botones-social {
+    display: flex;
+}
+
+.botones-social a {
+    margin-right: 10px;
+    color: white;
+}
+
+.botones-social a:hover {
+    color: grey;
+}
+
+.botones-social svg {
+    width: 24px;
+    height: 24px;
+}
