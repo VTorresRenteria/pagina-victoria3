@@ -1,15 +1,13 @@
 $fondo-negro: #311721;
 $fondo-claro: #f1e0d6;
+$color-primario: #311721;
+$color-hover: #2980b9;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-
-img {
-    max-width: 100%;
 }
 
 p {
@@ -23,6 +21,10 @@ a {
 ul,
 ol {
     text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 h2 {

@@ -18,26 +18,7 @@
 .botones {
     background-color: #f3e2d8;
     padding: 1rem;
-    min-height: 500px;
-
-    &__index {
-        background-image: url(../img/art1-vic.jpg);
-        display: flex;
-        height: 500px;
-        justify-content: space-around;
-        align-items: flex-end;
-        background-size: cover;
-        background-repeat: no-repeat;
-
-        a {
-            background-color: #311721;
-            color: white;
-            padding: 1rem;
-            border-radius: 10px;
-
-            &:hover {
-                color: grey;
-            }
-        }
-    }
+    &__img {
+        padding-bottom: 1rem;
+    } 
 }

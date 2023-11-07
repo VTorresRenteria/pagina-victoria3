@@ -5,10 +5,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-img {
-  max-width: 100%;
-}
-
 p {
   margin: 0;
 }
@@ -20,6 +16,10 @@ a {
 ul,
 ol {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 h2 {
@@ -50,6 +50,27 @@ h3 {
   color: grey;
 }
 
+.boton {
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #311721;
+  border: 1px solid #311721;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.boton:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+  transform: scale(1.1);
+}
+.boton:active {
+  transform: scale(0.9);
+}
+
 .sobre {
   max-width: 100%;
   background-color: #311721;
@@ -66,25 +87,9 @@ h3 {
 .botones {
   background-color: #f3e2d8;
   padding: 1rem;
-  min-height: 500px;
 }
-.botones__index {
-  background-image: url(../img/art1-vic.jpg);
-  display: flex;
-  height: 500px;
-  justify-content: space-around;
-  align-items: flex-end;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.botones__index a {
-  background-color: #311721;
-  color: white;
-  padding: 1rem;
-  border-radius: 10px;
-}
-.botones__index a:hover {
-  color: grey;
+.botones__img {
+  padding-bottom: 1rem;
 }
 
 .conceptos {
@@ -113,6 +118,146 @@ h3 {
 }
 .conceptos__soci {
   background-color: #f1e0d6;
+}
+
+.fondo__noticias {
+  align-items: center;
+  background-color: #f1e0d6;
+  padding-bottom: 8px;
+}
+.fondo__noticias h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.noticia {
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.noticia__contenido {
+  width: 100%;
+  padding: 10px;
+}
+.noticia__contenido img {
+  width: 100%;
+  max-height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+  padding-bottom: 1rem;
+}
+.noticia__contenidocontenido__titulo h3 {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+.noticia__contenidocontenido__titulocontenido__fecha {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.suscribir {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.suscribir form {
+  display: flex;
+  flex-direction: column;
+}
+.suscribir form .suscribir__input {
+  margin-bottom: 20px;
+}
+.suscribir form .suscribir__input p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.suscribir form .suscribir__input label {
+  font-weight: bold;
+}
+.suscribir form .suscribir__input input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.complementos {
+  background-color: #f1e0d6;
+}
+.complementos h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.complementos article {
+  padding: 20px;
+  margin: 20px;
+  background-color: #311721;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: whitesmoke;
+}
+.complementos article img {
+  max-width: 100%;
+}
+.complementos article h3 {
+  margin-top: 15px;
+  font-size: 2em;
+}
+.complementos article p {
+  font-size: 1rem;
+}
+
+.comunidad {
+  background-color: #f1e0d6;
+}
+.comunidad h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.comunidad form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.comunidad form div {
+  margin-bottom: 20px;
+}
+.comunidad form div label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.comunidad form div input,
+.comunidad form div textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.resenas {
+  background-color: #311721;
+}
+.resenas h2 {
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+}
+.resenas__container {
+  padding: 20px;
+  color: white;
+}
+.resenas__container article {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 footer {

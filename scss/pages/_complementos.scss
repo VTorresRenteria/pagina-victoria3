@@ -1,0 +1,31 @@
+.complementos {
+    background-color: $fondo-claro;
+
+    h2 {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    article {
+        padding: 20px;
+        margin: 20px;
+        background-color: $fondo-negro;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        color: whitesmoke;
+
+        img {
+            max-width: 100%;
+        }
+
+        h3 {
+            margin-top: 15px;
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}
