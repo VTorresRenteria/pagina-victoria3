@@ -85,13 +85,37 @@ h3 {
 }
 
 .botones {
-  background-color: #f3e2d8;
-  padding: 1rem;
+  background-color: #f1e0d6;
 }
-.botones__img {
-  padding-bottom: 1rem;
+.botones__index {
+  padding: 1rem;
+  text-align: center;
+}
+.botones__index a {
+  margin: 0px 10px;
 }
 
+@media (min-width: 1200px) {
+  .sobre {
+    display: flex;
+    flex-direction: column;
+  }
+  .sobre__parrafo {
+    margin: 0 200px;
+  }
+  .botones {
+    background-color: #f1e0d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .botones__index {
+    padding: 1rem;
+  }
+  .botones__index a {
+    margin: 0px 100px;
+  }
+}
 .conceptos {
   text-align: center;
 }

@@ -16,9 +16,41 @@
 }
 
 .botones {
-    background-color: #f3e2d8;
-    padding: 1rem;
-    &__img {
-        padding-bottom: 1rem;
-    } 
+    background-color: $fondo-claro;
+
+    &__index {
+        padding: 1rem;
+        text-align: center;
+        a {
+            margin: 0px 10px;
+        }
+    }
+}
+
+
+@media (min-width:1200px) {
+    .sobre {
+        display: flex;
+        flex-direction: column;
+
+        &__parrafo {
+            margin: 0 200px;
+        }
+    }
+
+
+
+    .botones {
+        background-color: $fondo-claro;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__index {
+            padding: 1rem;
+            a {
+                margin: 0px 100px;
+            }
+        }
+    }
 }
