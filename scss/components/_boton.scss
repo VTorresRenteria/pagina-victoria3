@@ -1,26 +1,23 @@
 @mixin boton-base {
     display: inline-block;
-    padding: 10px 10px;
+    margin: 10px;
+    padding: 20px;
     text-decoration: none;
     color: white;
     background-color: $color-primario;
     border: 1px solid $color-primario;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s, transform 0.3s; // Agregamos la transición para la transformación
+    transition: transform 0.3s;
     text-transform: uppercase;
     font-weight: bold;
 
     &:hover {
-        background-color: $color-hover;
-        border-color: $color-hover;
-        transform: scale(1.1); // Escalamos ligeramente en hover
+        transform: scale(1.1); 
     }
 
-    &:active {
-        transform: scale(0.9); // Reducimos al presionar el botón
-    }
 }
 
 .boton {
     @include boton-base;
+    padding: 5px 10px;
 }
