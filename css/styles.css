@@ -102,8 +102,12 @@ h3 {
     display: flex;
     flex-direction: column;
   }
+  .sobre_banner {
+    max-width: 100%;
+  }
   .sobre__parrafo {
-    margin: 0 200px;
+    padding: 0px;
+    margin: 50px 200px;
   }
   .botones {
     background-color: #f1e0d6;
@@ -151,6 +155,21 @@ h3 {
   background-color: #f1e0d6;
 }
 
+@media (min-width: 1200px) {
+  .conceptos {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    background-color: #f1e0d6;
+    padding: 0 200px;
+    padding-bottom: 50px;
+  }
+  .conceptos article img {
+    height: 325px;
+  }
+  .conceptos__info {
+    grid-column: span 2;
+  }
+}
 .fondo__noticias {
   align-items: center;
   background-color: #f1e0d6;
@@ -217,6 +236,15 @@ h3 {
   border: 1px solid #ccc;
 }
 
+@media (min-width: 1200px) {
+  .noticia {
+    margin: 0 200px;
+    margin-bottom: 50px;
+  }
+  .noticia__img {
+    padding: 20px;
+  }
+}
 .complementos {
   background-color: #f1e0d6;
   padding-bottom: 1px;
@@ -245,6 +273,12 @@ h3 {
   font-size: 1rem;
 }
 
+@media (min-width: 1200px) {
+  .complementos article {
+    margin: 0 200px;
+    margin-bottom: 50px;
+  }
+}
 .comunidad {
   background-color: #f1e0d6;
 }
@@ -283,6 +317,7 @@ h3 {
   color: white;
 }
 .resenas__container {
+  background-color: #311721;
   padding: 20px;
   color: white;
 }
@@ -290,8 +325,29 @@ h3 {
   border: 1px solid #ccc;
   border-radius: 8px;
   margin-bottom: 20px;
+  padding: 15px;
+}
+.resenas__container article h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+.resenas__container article .resena__fecha {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px;
+}
+.resenas__container article .resena__parrafo {
+  line-height: 1.6;
 }
 
+@media (min-width: 1200px) {
+  .comunidad form {
+    margin: 0 200px;
+  }
+  .resenas__container {
+    margin: 0 200px;
+  }
+}
 footer {
   background-color: black;
 }

@@ -76,3 +76,15 @@
         }
     }
 }
+
+@media (min-width:1200px) {
+
+    .noticia {
+        margin: 0 200px;
+        margin-bottom: 50px;
+
+        &__img {
+            padding: 20px;
+        }
+    }
+}

@@ -43,6 +43,7 @@
     }
 
     &__container {
+        background-color: $fondo-negro;
         padding: 20px;
         color: white;
 
@@ -50,6 +51,36 @@
             border: 1px solid #ccc;
             border-radius: 8px;
             margin-bottom: 20px;
+            padding: 15px;
+
+            h3 {
+                font-size: 1.2em;
+                margin-bottom: 5px;
+            }
+
+            .resena__fecha {
+                font-style: italic;
+                color: #666;
+                margin-bottom: 10px;
+            }
+
+            .resena__parrafo {
+                line-height: 1.6;
+            }
+        }
+    }
+}
+
+@media (min-width:1200px) {
+    .comunidad {
+        form {
+            margin: 0 200px;
+        }
+    }
+
+    .resenas {
+        &__container {
+            margin: 0 200px;
         }
     }
 }

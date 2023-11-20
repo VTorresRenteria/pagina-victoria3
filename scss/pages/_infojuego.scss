@@ -33,3 +33,22 @@
         background-color: $fondo-claro;
     }
 }
+
+@media (min-width:1200px) {
+    .conceptos{
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        background-color: $fondo-claro;
+        padding: 0 200px;
+        padding-bottom: 50px;
+
+        article {
+            img {
+                height: 325px;
+            }
+        }
+        &__info {
+            grid-column: span 2;
+        }
+    }
+}

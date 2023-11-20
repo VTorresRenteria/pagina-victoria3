@@ -38,9 +38,14 @@
     .sobre {
         display: flex;
         flex-direction: column;
+        &_banner {
+            max-width: 100%;
+    
+        }
 
         &__parrafo {
-            margin: 0 200px;
+            padding: 0px;
+            margin: 50px 200px;
         }
     }
 
