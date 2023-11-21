@@ -9,6 +9,11 @@ $color-primario: #311721;
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    max-width: 1400px; // o el valor que desees
+    margin: 0 auto; // centra el contenido en la página
+}
+
 p {
     margin: 0;
 }
